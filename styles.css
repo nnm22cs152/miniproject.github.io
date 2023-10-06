@@ -1,4 +1,3 @@
-/* Resetting default margin and padding */
 body, h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
@@ -7,9 +6,9 @@ body, h1, h2, h3, p, ul {
 body {
   margin: 0;
   padding: 0;
-  background-color: #000; /* Black background */
+  background-color: #000; 
   font-family: 'Arial', sans-serif;
-  color: #fff; /* Default text color */
+  color: #fff; 
 }
 
 .container {
@@ -18,29 +17,29 @@ body {
 }
 
 header {
-  background-color: #333; /* Dark background color */
-  color: white; /* Text color */
-  padding: 30px 0; /* Padding between heading and navbar */
-  width: 100%; /* Spread header across the page */
-  position: relative; /* Relative positioning for absolute header heading */
+  background-color: #333;
+  color: white; 
+  padding: 30px 0; 
+  width: 100%; 
+  position: relative; 
 }
 
 header h1 {
   margin: 0;
-  text-align: center; /* Center the heading */
-  font-family: 'Bebas Neue', cursive; /* Use Bebas Neue font for the heading */
-  font-size: 36px; /* Font size for the heading */
-  position: absolute; /* Position the heading absolutely */
-  top: 0; /* Position from the top of the header */
-  left: 50%; /* Position from the left (center) */
-  transform: translateX(-50%); /* Center the heading horizontally */
+  text-align: center; 
+  font-family: 'Bebas Neue'; 
+  font-size: 36px; 
+  position: absolute; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 header nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center; /* Center the nav items */
+  text-align: center; 
 }
 
 header nav ul li {
@@ -60,16 +59,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #555; /* Darker background color on hover */
+  background-color: #555; 
 }
 
-/* Landing Page (Home Page) Styles */
+
 .image-slider {
   width: 80%;
   max-width: 1200px;
   overflow: hidden;
   position: relative;
-  margin: 20px auto; /* Center the slider */
+  margin: 20px auto; 
 }
 
 .slider-image {
@@ -90,39 +89,68 @@ header nav ul li a:hover {
 
 /* About Us Page Styles */
 .about-box {
-  background-color: black; /* Black background */
+  background-color: black; 
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid goldenrod; /* Golden border */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a slight lift effect */
-  margin-bottom: 20px; /* Add margin to separate from other sections */
+  border: 2px solid goldenrod; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
 }
 
 .about-box h2 {
-  color: goldenrod; /* Golden heading color */
+  color: goldenrod; 
 }
 
 .about-box p {
-  color: white; /* White text color */
-  line-height: 1.6; /* Improved readability with slightly increased line height */
+  color: white; 
+  line-height: 1.6; 
 }
 
 .about-box ul {
-  list-style-type: disc; /* Use bullet points for the list */
-  color: white; /* White text color */
-  padding-left: 20px; /* Add some padding to the left of the list */
+  list-style-type: disc; 
+  color: white; 
+  padding-left: 20px;
 }
 
 .about-box ul li {
-  margin-bottom: 10px; /* Add some space between list items */
+  margin-bottom: 10px; 
 }
+.profile-card {
+    background-color:#f8000093; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+    width: 45%; 
+    float: left; 
+    margin-right: 5%; 
+  }
+  
+  .profile-card img {
+    max-width: 100%; 
+    border-radius: 50%; 
+  }
+  
+  .profile-card h3 {
+    margin-top: 10px;
+  }
+  
+  .profile-card p {
+    margin: 5px 0;
+  }
+  
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 footer {
-  background-color: #333; /* Dark background color */
-  color: white; /* Text color */
+  background-color: #333; 
+  color: white; 
   text-align: center;
   padding: 15px 0;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
