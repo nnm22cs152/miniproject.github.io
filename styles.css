@@ -6,9 +6,9 @@ body, h1, h2, h3, p, ul {
 body {
   margin: 0;
   padding: 0;
-  background-color: #000; 
+  background-color: #000;
   font-family: 'Arial', sans-serif;
-  color: #fff; 
+  color: #fff;
 }
 
 .container {
@@ -18,28 +18,28 @@ body {
 
 header {
   background-color: #333;
-  color: white; 
-  padding: 30px 0; 
-  width: 100%; 
-  position: relative; 
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+  position: relative;
 }
 
 header h1 {
   margin: 0;
-  text-align: center; 
-  font-family: 'Bebas Neue'; 
-  font-size: 36px; 
-  position: absolute; 
-  top: 0; 
-  left: 50%; 
-  transform: translateX(-50%); 
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center; 
+  text-align: center;
 }
 
 header nav ul li {
@@ -59,16 +59,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #555; 
+  background-color: #555;
 }
-
 
 .image-slider {
   width: 80%;
   max-width: 1200px;
   overflow: hidden;
   position: relative;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 
 .slider-image {
@@ -146,11 +145,65 @@ header nav ul li a:hover {
     display: table;
   }
 
-footer {
-  background-color: #333; 
-  color: white; 
-  text-align: center;
-  padding: 15px 0;
-  width: 100%;
-  bottom: 0;
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+.contact {
+  padding: 40px; /* Increase padding to make the box bigger */
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+}
+.contact-box {
+  padding: 40px; /* Increase padding to make the box bigger */
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  clear: both; /* Ensure boxes are displayed one below another */
+  float: none;
+}
+
+.contact h2 {
+  color: goldenrod;
+}
+
+.contact p {
+  color: white;
+  line-height: 1.6;
+}
+
+.contact ul {
+  list-style-type: disc;
+  color: white;
+  padding-left: 20px;
+}
+
+.contact ul li {
+  margin-bottom: 10px;
+}
+
+.event {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.event h2 {
+  color: goldenrod;
+}
+
+.event p {
+  color: white;
+  line-height: 1.6;
 }

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservations - Gourmet Grillhouse</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Custom styles for the reservations page */
+    body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2017/08/Vintage-Looking-Restaurant-Design-18.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 30px 0;
+      width: 100%;
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      text-align: center;
+      font-family: 'Bebas Neue';
+      font-size: 36px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin-left: 20px;
+    }
+
+    header nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    header nav ul li a:hover {
+      background-color: #555;
+    }
+
+    .reservation {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+
+    .reservation h2 {
+      color: goldenrod;
+    }
+
+    .reservation p {
+      color: white;
+      line-height: 1.6;
+    }
+
+    .reservation ul {
+      list-style-type: disc;
+      color: white;
+      padding-left: 20px;
+    }
+
+    .reservation ul li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1>Gourmet Grillhouse</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="vip.html">VIP Dining</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="reservation">
+      <div class="container">
+        <h2>Make a Reservation</h2>
+        <p>Reserve your table at Gourmet Grillhouse and experience a delightful dining experience with us.</p>
+        <ul>
+          <li>Call us at: +1 (123) 456-7890</li>
+          <li>Email us at: <a href="mailto:reservations@gourmetgrillhouse.com">reservations@gourmetgrillhouse.com</a></li>
+          <li>Or use the online reservation form below:</li>
+        </ul>
+        <form action="reservation_form.php" method="post">
+          <!-- Reservation Form Fields -->
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Gourmet Grillhouse</p>
+    </div>
+  </footer>
+</body>
+</html>
