@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(nextImage, 3000);
   });
   
+  function toggleNav() {
+    var nav = document.querySelector('header nav ul');
+    nav.classList.toggle('show');
+  }

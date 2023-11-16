@@ -6,21 +6,31 @@
   <title>About - Gourmet Grillhouse</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+</style>
 <body>
   <header>
-    <div class="container">
-        <img src="" alt="Logo" class="logo">
-        <h1>Gourmet Grillhouse</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="reservations.html">Reserve a Table</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="vip.html">VIP Dining</a></li>
-        </ul>
-      </nav>
+    <div class="container1">
+      <img src="" alt="Logo" class="logo">
+      <h1>Gourmet Grillhouse</h1>
+      <div class="navbar-toggle" onclick="toggleNav()">Menu</div>
+     
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="vip.html">VIP Dining</a></li>
+          </ul>
+        </nav>
+      
     </div>
   </header>
 
@@ -35,7 +45,7 @@
         <h3>Key features of GOURMET GRILLHOUSE website include:</h3>
         <ul>
           <li>User-friendly interface.</li>
-          <li>Showcase of our restaurant image in a slider</li>
+          <li>Showcase of our restaurant images in a slider</li>
           <li>Reservations & Timings Section</li>
           <li>Our menu is designed to be easy to navigate and find what you are looking for.</li>
           <li>Daily Specials mentioned so customers can be aware of them beforehand.</li>
@@ -45,7 +55,9 @@
       <h2>About Team</h2>
 
     <div class="profile-card">
-      <img src="image1.jpg" alt="Saif Profile">
+      <div class="profile-photo">
+      <img src="saifprofile.JPG" alt="Profile Photo">
+  </div>
       <h3>SAIF SHEIKH</h3>
       <p>NNM22CS152</p>
       <p>Personal Email: <a href="mailto:saifsheikh2004june@gmail.com">saifsheikh2004june@gmail.com</a></p>
@@ -54,11 +66,15 @@
     </div>
 
     <div class="profile-card">
-      <img src="image2.jpg" alt="Vijeth Profile">
+      <div class="profile-photo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTceLXizJ893rCgsmJOMY7fzckPwQG1Fzmvg&usqp=CAU" alt="Vijeth Profile">
+    </div>
       <h3>VIJETH</h3>
       <p>NNM22CS206</p>
+      <p>Personal Email: <a href=""></a></p>
       <p>Work Email: <a href="mailto:nnm22cs206@nmamit.in">nnm22cs206@nmamit.in</a></p>
-      <p></p>
+      <p>Phone: +91 8105527565</p>
+    </div>
     </div>
   </div>
 </div>

@@ -3,24 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservations - Gourmet Grillhouse</title>
+  <title>Gourmet Grillhouse</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
-  <style>
-    /* Custom styles for the reservations page */
-    body {
+</head>
+<style>
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2017/08/Vintage-Looking-Restaurant-Design-18.jpg');
+  background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2017/08/Vintage-Looking-Restaurant-Design-15.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   font-family: 'Arial', sans-serif;
   color: #fff;
 }
-  </style>
-</head>
-<body>
+
+  /* Add this style to make sure the image covers the entire screen */
+  html, body {
+    height: 100%;
+  }
+</style>
+    <body>
   <header>
     <div class="container">
       <img src="" alt="Logo" class="logo">
@@ -40,28 +45,30 @@
       
     </div>
   </header>
-
   <main>
-    <section class="reservation">
+    <section class="vip-section">
       <div class="container">
-        <h2>Make a Reservation</h2>
-        <p>Reserve your table at Gourmet Grillhouse and experience a delightful dining experience with us.</p>
+        <h2>VIP Dining Experience</h2>
+        <p>Indulge in an exclusive dining experience with our VIP service. Enjoy personalized attention, exquisite dishes, and a luxurious atmosphere.</p>
+        <p>Our VIP dining features:</p>
         <ul>
-          <li>Call us at: +1 (123) 456-7890</li>
-          <li>Email us at: <a href="mailto:reservations@gourmetgrillhouse.com">reservations@gourmetgrillhouse.com</a></li>
-          <li>Or use the online reservation form below:</li>
+          <li>Priority Seating</li>
+          <li>Customized Menu Options</li>
+          <li>Dedicated Service Staff</li>
+          <li>Exclusive Lounge Area</li>
+          <li>Special Events and Tastings</li>
         </ul>
-        <form action="reservation_form.php" method="post">
-          <!-- Reservation Form Fields -->
-        </form>
+        <p>Book your VIP dining experience now and elevate your culinary journey.</p>
       </div>
     </section>
   </main>
-
+  </div>
   <footer>
     <div class="container">
       <p>&copy; 2023 Gourmet Grillhouse</p>
     </div>
   </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
