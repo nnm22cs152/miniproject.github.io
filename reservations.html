@@ -23,7 +23,7 @@
 <body>
   <header>
     <div class="container">
-      <img src="" alt="Logo" class="logo">
+      <img src="logo.png" alt="Logo" class="logo">
       <h1>Gourmet Grillhouse</h1>
       <div class="navbar-toggle" onclick="toggleNav()">Menu</div>
      
@@ -47,13 +47,27 @@
         <h2>Make a Reservation</h2>
         <p>Reserve your table at Gourmet Grillhouse and experience a delightful dining experience with us.</p>
         <ul>
-          <li>Call us at: +1 (123) 456-7890</li>
+          <li>Call us at: +91 8310464886</li>
           <li>Email us at: <a href="mailto:reservations@gourmetgrillhouse.com">reservations@gourmetgrillhouse.com</a></li>
           <li>Or use the online reservation form below:</li>
-        </ul>
-        <form action="reservation_form.php" method="post">
-          <!-- Reservation Form Fields -->
-        </form>
+        </ul> <form id="Form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+
+          <button type="button" onclick="submitForm()">Reserve Now</button>
+      </form>
       </div>
     </section>
   </main>
