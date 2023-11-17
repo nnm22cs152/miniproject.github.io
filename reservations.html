@@ -1,81 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservations - Gourmet Grillhouse</title>
+  <title>Events - Gourmet Grillhouse</title>
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js"></script>
-  <style>
-    /* Custom styles for the reservations page */
-    body {
-  margin: 0;
-  padding: 0;
-  background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2017/08/Vintage-Looking-Restaurant-Design-18.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  font-family: 'Arial', sans-serif;
-  color: #fff;
-}
-  </style>
-</head>
+
 <body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2017/08/Vintage-Looking-Restaurant-Design-8.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+    }
+  </style>
   <header>
     <div class="container">
       <img src="logo.png" alt="Logo" class="logo">
       <h1>Gourmet Grillhouse</h1>
       <div class="navbar-toggle" onclick="toggleNav()">Menu</div>
-     
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="vip.html">VIP Dining</a></li>
-          </ul>
-        </nav>
-      
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="vip.html">VIP Dining</a></li>
+        </ul>
+      </nav>
+
     </div>
   </header>
 
   <main>
-    <section class="reservation">
+    <section class="event">
       <div class="container">
-        <h2>Make a Reservation</h2>
-        <p>Reserve your table at Gourmet Grillhouse and experience a delightful dining experience with us.</p>
-        <ul>
-          <li>Call us at: +91 8310464886</li>
-          <li>Email us at: <a href="mailto:reservations@gourmetgrillhouse.com">reservations@gourmetgrillhouse.com</a></li>
-          <li>Or use the online reservation form below:</li>
-        </ul> <form id="Form">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+        <h2>Event 1 - Live Music Night</h2>
+        <p>
+          Join us for a fantastic evening of live music and delicious food. Our talented musicians will entertain you
+          throughout the night. Don't miss this memorable event!
+        </p>
+        <p>Date: Friday, April 15, 2023</p>
+        <p>Time: 7:00 PM - 10:00 PM</p>
+      </div>
+    </section>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone" required>
-
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" required>
-
-          <label for="time">Time:</label>
-          <input type="time" id="time" name="time" required>
-
-          <button type="button" onclick="submitForm()">Reserve Now</button>
-      </form>
+    <section class="event">
+      <div class="container">
+        <h2>Event 2 - Wine Tasting</h2>
+        <p>
+          Discover the world of wines with our exclusive wine tasting event. Sample a variety of wines and learn from
+          our sommeliers. A perfect evening for wine enthusiasts!
+        </p>
+        <p>Date: Saturday, May 20, 2023</p>
+        <p>Time: 6:30 PM - 8:30 PM</p>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2023 Gourmet Grillhouse</p>
-    </div>
-  </footer>
 </body>
+<footer>
+  <div class="footer">
+    <p>&copy; 2023 Gourmet Grillhouse</p>
+  </div>
+</footer>
+
 </html>
